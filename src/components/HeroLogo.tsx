@@ -22,7 +22,7 @@ export default function HeroLogo({ title }: HeroLogoProps) {
     }, []);
 
     return (
-        <div className="relative flex justify-center items-center mb-8 py-10 perspective-1000">
+        <div className="relative flex justify-center items-center mb-4 md:mb-8 py-4 md:py-10 perspective-1000">
 
             {/* 1. Atmospheric Glow & Smoke Base */}
             <div

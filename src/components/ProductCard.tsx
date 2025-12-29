@@ -57,13 +57,17 @@ export default function ProductCard({ product }: ProductCardProps) {
     return (
         <>
             <div
-                className="group relative flex flex-col overflow-hidden bg-white shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)] transition-all duration-500 cursor-pointer rounded-2xl border border-black/5 hover:border-[#C5A059]/30"
+                className="group relative flex flex-col overflow-hidden bg-white dark:bg-[#121212] shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] hover:shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)] transition-all duration-500 cursor-pointer rounded-2xl border border-black/5 dark:border-white/10 hover:border-[#C5A059]/30 dark:hover:border-[#C5A059]/50"
                 onClick={() => setIsDetailOpen(true)}
             >
-                <div className="relative aspect-[3/4] overflow-hidden bg-gray-100">
+                <div className="relative aspect-[3/4] overflow-hidden bg-[#FAFAFA]">
+                    {/* Best Seller Badge */}
+                    <div className="absolute top-2 left-2 z-20 bg-orange-500 text-white text-[10px] md:text-xs font-bold px-2 py-0.5 rounded-sm shadow-sm md:top-3 md:left-3">
+                        Best Seller
+                    </div>
+
                     {/* Placeholder for image - using a colored div for now until real images */}
-                    {/* Placeholder for image - using a colored div for now until real images */}
-                    <div className="absolute inset-0 flex items-center justify-center bg-secondary/20 text-secondary-foreground/20">
+                    <div className="absolute inset-0 flex items-center justify-center bg-secondary/10 text-secondary-foreground/20">
                         {/* If we have a real image, we would use Next.js Image component here */}
                         {displayImage ? (
                             <>
@@ -95,17 +99,31 @@ export default function ProductCard({ product }: ProductCardProps) {
                 </div>
 
                 <div className="flex flex-col p-2.5 md:p-4 flex-grow">
-                    <div className="flex flex-col md:flex-row justify-between items-start mb-2 gap-1 md:gap-2">
-                        <h3 className="text-sm md:text-lg font-medium text-primary leading-tight line-clamp-2 min-h-[2.5em] md:min-h-0">
-                            {product.name}
-                        </h3>
-                        <div className="flex flex-col items-start md:items-end flex-shrink-0">
+                    <div className="flex flex-col justify-between items-start mb-2 gap-1 md:gap-2">
+                        <div className="w-full">
+                            <h3 className="text-sm md:text-lg font-medium text-primary leading-tight line-clamp-2 min-h-[2.5em] md:min-h-0 mb-1">
+                                {product.name}
+                            </h3>
+                            {/* Star Rating */}
+                            <div className="flex items-center gap-1 mb-2">
+                                <div className="flex text-orange-400">
+                                    {[1, 2, 3, 4, 5].map((star) => (
+                                        <svg key={star} className="w-3 h-3 md:w-3.5 md:h-3.5 fill-current" viewBox="0 0 20 20">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                    ))}
+                                </div>
+                                <span className="text-[10px] md:text-xs text-gray-400 font-medium">(4.8)</span>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col items-start w-full">
                             {product.originalPrice && (
                                 <span className="text-[10px] md:text-sm text-gray-400 line-through decoration-gray-400/70">
                                     {product.originalPrice} TL
                                 </span>
                             )}
-                            <p className="text-base md:text-xl font-bold text-green-800">
+                            <p className="text-base md:text-xl font-bold text-green-800 dark:text-green-400">
                                 {product.price} TL
                             </p>
                         </div>
@@ -151,10 +169,10 @@ export default function ProductCard({ product }: ProductCardProps) {
             {/* Detail Modal */}
             {isDetailOpen && typeof document !== 'undefined' && createPortal(
                 <div className="fixed inset-0 z-[9999] flex items-center justify-center p-0 md:p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
-                    <div className="bg-[#fffdf7] w-full h-full md:h-auto md:max-w-4xl md:max-h-[90vh] overflow-y-auto md:rounded-3xl shadow-2xl relative animate-in zoom-in-95 duration-300 border border-[#C5A059]/20 flex flex-col md:block">
+                    <div className="bg-[#fffdf7] dark:bg-[#121212] w-full h-full md:h-auto md:max-w-4xl md:max-h-[90vh] overflow-y-auto md:rounded-3xl shadow-2xl relative animate-in zoom-in-95 duration-300 border border-[#C5A059]/20 dark:border-white/10 flex flex-col md:block">
                         <button
                             onClick={() => setIsDetailOpen(false)}
-                            className="absolute top-4 right-4 z-20 p-2 bg-white/80 rounded-full hover:bg-white transition-colors text-primary shadow-sm"
+                            className="absolute top-4 right-4 z-20 p-2 bg-white/80 dark:bg-black/50 rounded-full hover:bg-white dark:hover:bg-black transition-colors text-primary shadow-sm"
                         >
                             <X size={24} />
                         </button>
@@ -215,14 +233,14 @@ export default function ProductCard({ product }: ProductCardProps) {
                                 <h2 className="text-2xl md:text-3xl font-bold text-primary mb-2">
                                     {product.name}
                                 </h2>
-                                <p className="text-xl md:text-2xl font-bold text-green-800 mb-6 md:mb-8">
+                                <p className="text-xl md:text-2xl font-bold text-green-800 dark:text-green-400 mb-6 md:mb-8">
                                     {product.price} TL
                                 </p>
 
-                                <div className="space-y-6 md:space-y-8 text-primary/80">
+                                <div className="space-y-6 md:space-y-8 text-primary/80 dark:text-gray-300">
                                     <div>
                                         <h3 className="text-xs font-bold uppercase tracking-widest text-[#C5A059] mb-2 md:mb-3">Description</h3>
-                                        <p className="text-sm md:text-base leading-relaxed whitespace-pre-line text-gray-600">
+                                        <p className="text-sm md:text-base leading-relaxed whitespace-pre-line text-gray-600 dark:text-gray-300">
                                             {/* @ts-ignore */}
                                             {t(`${product.id}.description`)}
                                         </p>
@@ -230,7 +248,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
                                     <div>
                                         <h3 className="text-xs font-bold uppercase tracking-widest text-[#C5A059] mb-2 md:mb-3">Features</h3>
-                                        <p className="text-sm leading-relaxed whitespace-pre-line text-gray-600">
+                                        <p className="text-sm leading-relaxed whitespace-pre-line text-gray-600 dark:text-gray-300">
                                             {/* @ts-ignore */}
                                             {t(`${product.id}.features`)}
                                         </p>
@@ -238,7 +256,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
                                     <div>
                                         <h3 className="text-xs font-bold uppercase tracking-widest text-[#C5A059] mb-2 md:mb-3">Usage</h3>
-                                        <p className="text-sm leading-relaxed whitespace-pre-line text-gray-600">
+                                        <p className="text-sm leading-relaxed whitespace-pre-line text-gray-600 dark:text-gray-300">
                                             {/* @ts-ignore */}
                                             {t(`${product.id}.usage`)}
                                         </p>

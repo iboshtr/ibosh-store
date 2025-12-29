@@ -18,7 +18,7 @@ export default async function HomePage() {
 
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-secondary/30 py-32 px-4 text-center overflow-hidden min-h-[60vh] flex flex-col justify-center relative">
+        <section className="bg-secondary/30 py-12 md:py-32 px-4 text-center overflow-hidden min-h-[40vh] md:min-h-[60vh] flex flex-col justify-center relative">
           {/* Global Texture for Hero */}
           <div className="absolute inset-0 bg-noise opacity-[0.03] pointer-events-none"></div>
 

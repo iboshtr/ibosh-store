@@ -34,7 +34,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} dir={dir}>
-      <body>
+      <body className="pt-[36px]">
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <CartProvider>

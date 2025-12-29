@@ -10,10 +10,10 @@ export default async function AboutPage() {
     const tHome = await getTranslations("HomePage");
 
     return (
-        <div className="flex flex-col min-h-screen bg-[#fffdf7]">
+        <div className="flex flex-col min-h-screen bg-[#fffdf7] overflow-x-hidden w-full">
             <Header />
 
-            <main className="flex-grow pt-32 pb-20">
+            <main className="flex-grow pt-32 pb-20 w-full">
                 <div className="container mx-auto px-6">
                     {/* Hero Title */}
                     <div className="mb-20 text-center">
@@ -60,7 +60,7 @@ export default async function AboutPage() {
                                         />
                                     </div>
                                     {/* Decorative Badge */}
-                                    <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-white rounded-full p-4 shadow-xl flex items-center justify-center animate-[spin_10s_linear_infinite]">
+                                    <div className="absolute -bottom-4 -left-4 md:-bottom-8 md:-left-8 w-24 h-24 md:w-32 md:h-32 bg-white rounded-full p-3 md:p-4 shadow-xl flex items-center justify-center animate-[spin_10s_linear_infinite]">
                                         <svg viewBox="0 0 100 100" className="w-full h-full overflow-visible">
                                             <path
                                                 id="aboutCirclePathUnique"

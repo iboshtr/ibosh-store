@@ -35,14 +35,14 @@ export default function Header() {
 
     return (
         <header
-            className={`sticky top-0 z-50 w-full transition-all duration-500 border-b ${isScrolled
+            className={`sticky top-[36px] z-50 w-full transition-all duration-500 border-b ${isScrolled
                 ? "bg-white/80 backdrop-blur-xl border-[#C5A059]/40 shadow-sm py-2"
                 : "bg-transparent border-transparent py-4"
                 }`}
         >
             <div className="container mx-auto px-4 flex items-center justify-between flex-wrap md:flex-nowrap">
                 {/* Logo */}
-                <Link href="/" className="flex-shrink-0 group">
+                <Link href="/" className="flex-shrink-0 group relative z-[60] cursor-pointer block">
                     <img
                         src="/logo.jpg"
                         alt="IBOSH"
