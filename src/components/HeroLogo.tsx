@@ -26,7 +26,7 @@ export default function HeroLogo({ title }: HeroLogoProps) {
 
             {/* 1. Atmospheric Glow & Smoke Base */}
             <div
-                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] pointer-events-none transition-transform duration-300 ease-out"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] md:w-[500px] h-[300px] md:h-[500px] pointer-events-none transition-transform duration-300 ease-out"
                 style={{ transform: `translate(-50%, -50%) translate(${offset.x * -0.5}px, ${offset.y * -0.5}px)` }}
             >
                 {/* Rotating Smoke Layer 1 */}
@@ -49,7 +49,7 @@ export default function HeroLogo({ title }: HeroLogoProps) {
                     transform: `perspective(1000px) rotateX(${offset.y * 0.5}deg) rotateY(${offset.x * -0.5}deg) translateZ(0)`
                 }}
             >
-                <div className="relative group p-10 rounded-3xl transition-all duration-700">
+                <div className="relative group p-6 md:p-10 rounded-2xl md:rounded-3xl transition-all duration-700">
                     {/* Glassmorphism Background Card */}
                     <div className="absolute inset-0 bg-white/5 backdrop-blur-[2px] rounded-full sm:rounded-[3rem] border border-white/10 shadow-[0_8px_32px_0_rgba(197,160,89,0.1)] opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
@@ -59,7 +59,7 @@ export default function HeroLogo({ title }: HeroLogoProps) {
                     <img
                         src="/ibosh-logo-full.png"
                         alt={title}
-                        className="relative z-10 h-32 md:h-52 w-auto object-contain drop-shadow-2xl filter brightness-95 group-hover:brightness-105 transition-all duration-500 scale-100 group-hover:scale-105"
+                        className="relative z-10 h-20 md:h-52 lg:h-52 w-auto object-contain drop-shadow-2xl filter brightness-95 group-hover:brightness-105 transition-all duration-500 scale-100 group-hover:scale-105"
                     />
                 </div>
             </div>

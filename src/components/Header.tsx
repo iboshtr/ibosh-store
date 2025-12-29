@@ -39,13 +39,13 @@ export default function Header() {
                 : "bg-transparent border-transparent py-4"
                 }`}
         >
-            <div className="container mx-auto px-4 flex items-center justify-between">
+            <div className="container mx-auto px-4 flex items-center justify-between flex-wrap md:flex-nowrap">
                 {/* Logo */}
                 <Link href="/" className="flex-shrink-0 group">
                     <img
                         src="/logo.jpg"
                         alt="IBOSH"
-                        className={`w-auto object-contain rounded-full transition-all duration-500 ${isScrolled ? "h-14" : "h-20 shadow-lg"
+                        className={`w-auto object-contain rounded-full transition-all duration-500 ${isScrolled ? "h-10 md:h-14" : "h-14 md:h-20 shadow-lg"
                             }`}
                     />
                 </Link>
@@ -71,7 +71,7 @@ export default function Header() {
                 </nav>
 
                 {/* Actions */}
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-2 md:gap-6">
                     <LanguageSwitcher />
 
                     <button
@@ -80,13 +80,13 @@ export default function Header() {
                     >
                         {/* Elegant Shopping Bag Icon */}
                         <ShoppingBag
-                            size={32}
+                            size={28}
                             strokeWidth={1.5}
-                            className="text-primary group-hover:text-[#C5A059] transition-colors duration-300"
+                            className="text-primary group-hover:text-[#C5A059] transition-colors duration-300 md:w-8 md:h-8"
                         />
 
                         {itemCount > 0 && (
-                            <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-[#C5A059] text-[10px] font-bold text-white shadow-md animate-in zoom-in duration-300 border-2 border-white">
+                            <span className="absolute -top-1 -right-1 flex h-4 w-4 md:h-5 md:w-5 items-center justify-center rounded-full bg-[#C5A059] text-[9px] md:text-[10px] font-bold text-white shadow-md animate-in zoom-in duration-300 border-2 border-white">
                                 {itemCount}
                             </span>
                         )}

@@ -115,7 +115,7 @@ export default async function HomePage() {
           <div className="container mx-auto">
             <div className="flex flex-wrap justify-center gap-8">
               {products.map((product, index) => (
-                <div key={product.id} className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1rem)] min-w-[280px] max-w-[320px]">
+                <div key={product.id} className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1rem)] min-w-[280px] sm:max-w-none mx-auto sm:mx-0">
                   <Reveal width="100%" delay={index * 0.1}>
                     <ProductCard product={product} />
                   </Reveal>

@@ -95,17 +95,17 @@ export default function ProductCard({ product }: ProductCardProps) {
                 </div>
 
                 <div className="flex flex-col p-4 flex-grow">
-                    <div className="flex justify-between items-start mb-2">
-                        <h3 className="text-lg font-medium text-primary pr-2 leading-tight">
+                    <div className="flex justify-between items-start mb-2 gap-2">
+                        <h3 className="text-lg font-medium text-primary leading-tight">
                             {product.name}
                         </h3>
-                        <div className="flex flex-col items-end">
+                        <div className="flex flex-col items-end flex-shrink-0">
                             {product.originalPrice && (
                                 <span className="text-sm text-gray-400 line-through decoration-gray-400/70">
                                     {product.originalPrice} TL
                                 </span>
                             )}
-                            <p className="text-xl font-bold text-green-800 whitespace-nowrap">
+                            <p className="text-xl font-bold text-green-800">
                                 {product.price} TL
                             </p>
                         </div>
