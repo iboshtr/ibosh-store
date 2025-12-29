@@ -46,7 +46,7 @@ export default function Header() {
                     <img
                         src="/logo.jpg"
                         alt="IBOSH"
-                        className={`w-auto object-contain rounded-full transition-all duration-500 ${isScrolled ? "h-10 md:h-14" : "h-14 md:h-20 shadow-lg"
+                        className={`w-auto object-contain rounded-full bg-white transition-all duration-500 ${isScrolled ? "h-10 md:h-14" : "h-14 md:h-20 shadow-lg"
                             }`}
                     />
                 </Link>

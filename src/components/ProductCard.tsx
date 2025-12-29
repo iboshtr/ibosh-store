@@ -94,18 +94,18 @@ export default function ProductCard({ product }: ProductCardProps) {
                     </div>
                 </div>
 
-                <div className="flex flex-col p-4 flex-grow">
-                    <div className="flex justify-between items-start mb-2 gap-2">
-                        <h3 className="text-lg font-medium text-primary leading-tight">
+                <div className="flex flex-col p-2.5 md:p-4 flex-grow">
+                    <div className="flex flex-col md:flex-row justify-between items-start mb-2 gap-1 md:gap-2">
+                        <h3 className="text-sm md:text-lg font-medium text-primary leading-tight line-clamp-2 min-h-[2.5em] md:min-h-0">
                             {product.name}
                         </h3>
-                        <div className="flex flex-col items-end flex-shrink-0">
+                        <div className="flex flex-col items-start md:items-end flex-shrink-0">
                             {product.originalPrice && (
-                                <span className="text-sm text-gray-400 line-through decoration-gray-400/70">
+                                <span className="text-[10px] md:text-sm text-gray-400 line-through decoration-gray-400/70">
                                     {product.originalPrice} TL
                                 </span>
                             )}
-                            <p className="text-xl font-bold text-green-800">
+                            <p className="text-base md:text-xl font-bold text-green-800">
                                 {product.price} TL
                             </p>
                         </div>
@@ -114,7 +114,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                     <button
                         onClick={handleAddToCart}
                         disabled={isAdded}
-                        className={`mt-auto w-full py-3 px-4 text-sm font-medium tracking-wide uppercase transition-all duration-300 flex items-center justify-center gap-2 relative overflow-hidden group ${isAdded
+                        className={`mt-auto w-full py-2 md:py-3 px-2 md:px-4 text-[10px] md:text-sm font-medium tracking-wide uppercase transition-all duration-300 flex items-center justify-center gap-1.5 md:gap-2 relative overflow-hidden group rounded-lg md:rounded-xl ${isAdded
                             ? "bg-green-600 text-white"
                             : "bg-accent text-white hover:bg-accent/90"
                             }`}
@@ -124,14 +124,14 @@ export default function ProductCard({ product }: ProductCardProps) {
                             <div className="absolute inset-0 -translate-x-full group-hover:animate-[sheen_1s_infinite] bg-gradient-to-r from-transparent via-white/20 to-transparent z-10" />
                         )}
 
-                        <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:scale-110">
+                        <span className="relative z-10 flex items-center gap-1.5 md:gap-2 transition-transform duration-300 group-hover:scale-110">
                             {isAdded ? (
                                 <>
                                     ✓ {tCommon("addedToCart")}
                                 </>
                             ) : (
                                 <>
-                                    <Plus size={16} />
+                                    <Plus size={14} className="md:w-4 md:h-4" />
                                     {tCommon("addToCart")}
                                 </>
                             )}
@@ -140,10 +140,10 @@ export default function ProductCard({ product }: ProductCardProps) {
 
                     <button
                         onClick={handleQuickBuy}
-                        className="mt-2 w-full py-2 px-4 text-xs font-bold tracking-wide uppercase transition-all duration-300 flex items-center justify-center gap-2 border border-green-500/30 text-green-700 hover:bg-green-50 rounded-lg group/whatsapp"
+                        className="mt-2 w-full py-1.5 md:py-2 px-2 md:px-4 text-[10px] md:text-xs font-bold tracking-wide uppercase transition-all duration-300 flex items-center justify-center gap-1.5 md:gap-2 border border-green-500/30 text-green-700 hover:bg-green-50 rounded-lg group/whatsapp"
                     >
-                        <MessageCircle size={14} className="group-hover/whatsapp:scale-110 transition-transform" />
-                        {tCommon("quickBuyWhatsApp")}
+                        <MessageCircle size={12} className="group-hover/whatsapp:scale-110 transition-transform md:w-[14px] md:h-[14px]" />
+                        <span className="truncate">{tCommon("quickBuyWhatsApp")}</span>
                     </button>
                 </div>
             </div>

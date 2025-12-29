@@ -113,9 +113,9 @@ export default async function HomePage() {
         {/* Product Grid */}
         <section id="products" className="py-20 px-4">
           <div className="container mx-auto">
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center gap-3 md:gap-8">
               {products.map((product, index) => (
-                <div key={product.id} className="w-full sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-1rem)] lg:w-[calc(25%-1rem)] min-w-[280px] sm:max-w-none mx-auto sm:mx-0">
+                <div key={product.id} className="w-[calc(50%-0.375rem)] sm:w-[calc(50%-1rem)] md:w-[calc(33.333%-2rem)] lg:w-[calc(25%-2rem)] min-w-0 mx-0">
                   <Reveal width="100%" delay={index * 0.1}>
                     <ProductCard product={product} />
                   </Reveal>

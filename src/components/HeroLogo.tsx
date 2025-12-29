@@ -59,7 +59,7 @@ export default function HeroLogo({ title }: HeroLogoProps) {
                     <img
                         src="/ibosh-logo-full.png"
                         alt={title}
-                        className="relative z-10 h-20 md:h-52 lg:h-52 w-auto object-contain drop-shadow-2xl filter brightness-95 group-hover:brightness-105 transition-all duration-500 scale-100 group-hover:scale-105"
+                        className="relative z-10 h-20 md:h-52 lg:h-52 w-auto object-contain drop-shadow-2xl dark:bg-white/90 dark:p-4 dark:rounded-3xl transition-all duration-500 scale-100 group-hover:scale-105"
                     />
                 </div>
             </div>

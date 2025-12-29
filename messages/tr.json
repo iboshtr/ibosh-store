@@ -24,7 +24,9 @@
         "freeShippingOffer": "Ücretsiz Kargo Fırsatı",
         "freeShippingOver": "{amount} TL üzeri siparişlerde kargo bedava",
         "greatNewsFreeShipping": "Harika haber! Siparişiniz ücretsiz kargo hakkı kazandı.",
-        "quickBuyWhatsApp": "WhatsApp ile Hızlı Sipariş"
+        "quickBuyWhatsApp": "WhatsApp ile Hızlı Sipariş",
+        "headerAnnouncement": "847 TL üzeri siparişlerde ücretsiz kargo",
+        "continueShopping": "Alışverişe Devam Et"
     },
     "Navigation": {
         "home": "Ana Sayfa",
