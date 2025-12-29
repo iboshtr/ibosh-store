@@ -8,7 +8,6 @@ import MobileNav from "@/components/MobileNav";
 
 import OAWhatsApp from "@/components/OAWhatsApp";
 import CartDrawer from "@/components/CartDrawer";
-import FreeShippingNotification from "@/components/FreeShippingNotification";
 import "./../globals.css";
 
 export default async function RootLayout({
@@ -42,7 +41,6 @@ export default async function RootLayout({
             <OAWhatsApp phoneNumber="905521679185" />
             <CartDrawer />
             <MobileNav />
-            <FreeShippingNotification />
           </CartProvider>
         </NextIntlClientProvider>
       </body>

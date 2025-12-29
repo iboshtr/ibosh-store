@@ -6,14 +6,11 @@ export default function AnnouncementBar() {
     const t = useTranslations("Common");
 
     return (
-        <div className="bg-[#C5A059] text-white overflow-hidden py-1.5 relative z-[60]">
-            <div className="animate-marquee whitespace-nowrap flex gap-10">
-                {/* Repeating content for smooth infinite loop */}
-                {[...Array(10)].map((_, i) => (
-                    <span key={i} className="text-xs font-bold tracking-[0.2em] uppercase flex items-center gap-10">
-                        ✨ {t("freeShippingOffer")} ✨ | {t("fastDelivery")} 🚀 | {t("premiumQuality")} 💎
-                    </span>
-                ))}
+        <div className="bg-[#C5A059] text-white overflow-hidden py-2 relative z-[60]">
+            <div className="container mx-auto px-4 text-center">
+                <span className="text-xs md:text-sm font-bold tracking-widest uppercase flex items-center justify-center gap-2">
+                    {t("headerAnnouncement")}
+                </span>
             </div>
         </div>
     );
