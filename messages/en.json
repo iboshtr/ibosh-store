@@ -1,0 +1,86 @@
+{
+    "HomePage": {
+        "title": "IBOSH",
+        "subtitle": "Not A scent... A feeling",
+        "discover": "Discover",
+        "showcase_title_1": "THE",
+        "showcase_title_2": "ART",
+        "showcase_title_3": "OF",
+        "showcase_title_4": "ATMOSPHERE",
+        "showcase_subtitle": "Crafting moments that linger. Our collection is designed not just to scent a room, but to transform your state of mind.",
+        "showcase_cta": "EXPLORE COLLECTION"
+    },
+    "Common": {
+        "addToCart": "Add to Cart",
+        "addedToCart": "Added to Cart",
+        "checkout": "Checkout",
+        "price": "Price",
+        "total": "Total",
+        "emptyCart": "Your cart is empty",
+        "cart": "Shopping Cart",
+        "freeShippingUnlocked": "Free Shipping Unlocked!",
+        "addMoreForFreeShipping": "Add {amount} TL for Free Shipping",
+        "startShopping": "Start Shopping",
+        "freeShippingOffer": "Free Shipping Offer",
+        "freeShippingOver": "Free shipping on orders over {amount} TL",
+        "greatNewsFreeShipping": "Great news! Your order qualifies for free shipping.",
+        "quickBuyWhatsApp": "Quick Buy via WhatsApp"
+    },
+    "Navigation": {
+        "home": "Home",
+        "cart": "Cart",
+        "contact": "Contact",
+        "quickLinks": "Quick Links",
+        "store": "Store",
+        "about": "About Us"
+    },
+    "Features": {
+        "fastDeliveryTitle": "Fast Delivery",
+        "fastDeliveryDesc": "All across Turkey",
+        "longLastingTitle": "High Stability",
+        "longLastingDesc": "Fragrances that stay for hours",
+        "naturalTitle": "Natural Ingredients",
+        "naturalDesc": "Inspired by nature's finest elements",
+        "aromaticPrecisionTitle": "Superior Precision",
+        "aromaticPrecisionDesc": "Powerful formula that fills the room"
+    },
+    "Newsletter": {
+        "title": "Chat With Us",
+        "description": "Have a question or special request? Message us directly on WhatsApp.",
+        "placeholder": "Write your message here...",
+        "button": "Send via WhatsApp"
+    },
+    "AboutPage": {
+        "title": "The IBOSH Story",
+        "text": "At IBOSH, we believe that a fragrance is not just a scent; it’s a feeling and a memory. Our journey began with a passion for creating scents that transform ordinary atmospheres into extraordinary experiences. Every product in our collection is carefully crafted to give your home or private space a touch of lasting luxury and comfort. We don’t just sell scents; we create the atmosphere you deserve to live in."
+    },
+    "Contact": {
+        "title": "Contact Us",
+        "phone": "Phone",
+        "email": "Email",
+        "social": "Follow Us",
+        "location": "Location",
+        "address": "Istanbul, Turkey",
+        "back": "Back to Home"
+    },
+    "Products": {
+        "1": {
+            "name": "Hush Room Spray",
+            "description": "IBOSH Room Spray Hush is a premium room spray that adds instant freshness to your living spaces with its refreshing and long-lasting effect. Thanks to its special formula, it eliminates bad odors and gives your environment a clean, peaceful and elegant ambiance. It is a practical solution that has a fast effect for home, office, car and every corner of daily life.\n\nThanks to its modern and stylish design, it adds an aesthetic touch to your environment not only as an odor remover but also decoratively. Its soft and balanced essence structure spreads effectively in both small and large areas; creates a spacious, clean and relaxing atmosphere at the first spray.",
+            "features": "• 260 ml special formula – long-lasting, effective and balanced scent diffusion\n• Fast effect – instantly neutralizes bad odors\n• Fresh and clean essence – ideal for home, office and car use\n• Decorative bottle design – modern and elegant look\n• Wide range of use – suitable for living room, bedroom, kitchen, bathroom, office, corridor and car interior use",
+            "usage": "• Hold the spray upright and spray 1–2 times into the air\n• Apply a few times according to need in larger areas\n• Do not spray too closely on fabrics and surfaces\n• Keep out of reach of children"
+        },
+        "2": {
+            "name": "Funky Fresh Reed Diffuser",
+            "description": "IBOSH Funky Fresh Reed Diffuser adds both an energetic atmosphere and an elegant look to your environment with its refreshing gum aroma and decorative floral design. Thanks to its sweet, lively and fun 'Bubble Gum' effect; It is an excellent choice for those who want a young, dynamic and positive atmosphere.\n\nIts stylish glass bottle and special flower details inside take the product out of being just a room fragrance and add a decorative touch to the environment. It revitalizes your living space by providing long-lasting freshness regardless of living room, bedroom, bathroom, office or workspace.",
+            "features": "• 110 ml special formula\n• Decorative floral design\n• Sweet and fresh gum aroma (Bubble Gum)\n• Long-lasting fragrance diffusion\n• Natural and balanced scenting thanks to sticks\n• Suitable for home and office use\n• Aesthetic appearance that adapts to any environment",
+            "usage": "• Open the bottle cap carefully.\n• Place the sticks inside the bottle.\n• As the sticks absorb the essence, the scent begins to spread to the environment.\n• Flip the sticks at certain intervals for a more intense effect."
+        },
+        "3": {
+            "name": "Tropical Mood Mango Reed Diffuser",
+            "description": "Tropical Mood series adds both scent and aesthetics to your living spaces with its fresh mango aroma and elegant floral details. Thanks to its special formula prepared with natural essences, it creates a long-lasting, sweet and tropical freshness in the environment.\n\nThanks to its stylish glass bottle and decorative flower design, it adds elegance to your space not only as a room fragrance but also as a decorative accessory.",
+            "features": "• 110 ml Premium Formula – Provides effective and long-lasting scent diffusion.\n• Natural Mango Aroma – Creates a fresh, sweet and tropical atmosphere.\n• Decorative Floral Design – Adds elegance to any environment with its aesthetic appearance.\n• Effective Stick Diffuser System – Scent spreads evenly and quickly.\n• Wide Range of Use – Ideal for living room, bedroom, bathroom, kitchen and office.\n• Stylish Glass Bottle – Both decorative and durable with high quality material.",
+            "usage": "• Open the bottle cap carefully.\n• Place the sticks inside the bottle.\n• After the sticks absorb the essence, a soft scent begins to spread in the environment.\n• Flip the sticks at certain intervals for a more intense scent.\n• Keep the product away from direct sunlight."
+        }
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "HomePage": {
+        "title": "IBOSH",
+        "subtitle": "Not A scent... A feeling",
+        "discover": "Keşfet",
+        "showcase_title_1": "",
+        "showcase_title_2": "ATMOSFER",
+        "showcase_title_3": "",
+        "showcase_title_4": "SANATI",
+        "showcase_subtitle": "Kalıcı anlar yaratıyoruz. Koleksiyonumuz sadece bir odayı kokutmak için değil, ruh halinizi dönüştürmek için tasarlandı.",
+        "showcase_cta": "KOLEKSİYONU KEŞFET"
+    },
+    "Common": {
+        "addToCart": "Sepete Ekle",
+        "addedToCart": "Sepete Eklendi",
+        "checkout": "Siparişi Tamamla",
+        "price": "Fiyat",
+        "total": "Toplam",
+        "emptyCart": "Sepetiniz boş",
+        "cart": "Alışveriş Sepeti",
+        "freeShippingUnlocked": "Ücretsiz Kargo Kazandınız!",
+        "addMoreForFreeShipping": "Ücretsiz kargo için {amount} TL ekleyin",
+        "startShopping": "Alışverişe Başla",
+        "freeShippingOffer": "Ücretsiz Kargo Fırsatı",
+        "freeShippingOver": "{amount} TL üzeri siparişlerde kargo bedava",
+        "greatNewsFreeShipping": "Harika haber! Siparişiniz ücretsiz kargo hakkı kazandı.",
+        "quickBuyWhatsApp": "WhatsApp ile Hızlı Sipariş"
+    },
+    "Navigation": {
+        "home": "Ana Sayfa",
+        "cart": "Sepet",
+        "contact": "İletişim",
+        "quickLinks": "Hızlı Bağlantılar",
+        "store": "Mağaza",
+        "about": "Hakkımızda"
+    },
+    "Features": {
+        "fastDeliveryTitle": "Hızlı Teslimat",
+        "fastDeliveryDesc": "Tüm Türkiye'ye",
+        "longLastingTitle": "Yüksek Kalıcılık",
+        "longLastingDesc": "Saatlerce süren etki",
+        "naturalTitle": "Doğal İçerik",
+        "naturalDesc": "Doğanın en saf özlerinden",
+        "aromaticPrecisionTitle": "Üstün Koku Hassasiyeti",
+        "aromaticPrecisionDesc": "Odayı anında saran güçlü formül"
+    },
+    "Newsletter": {
+        "title": "Bizimle Sohbet Edin",
+        "description": "Sorunuz veya özel bir isteğiniz mi var? WhatsApp üzerinden bize doğrudan yazın.",
+        "placeholder": "Mesajınızı buraya yazın...",
+        "button": "WhatsApp ile Gönder"
+    },
+    "AboutPage": {
+        "title": "IBOSH Hikayesi",
+        "text": "IBOSH olarak, parfümlerin sadece bir koku değil, bir duygu ve bir hafıza olduğuna inanıyoruz. Yolculuğumuz, sıradan atmosferleri sıra dışı deneyimlere dönüştüren kokular yaratma tutkusuyla başladı. Koleksiyonumuzdaki her ürün, evinize veya özel alanınıza kalıcı bir lüks ve konfor dokunuşu katmak için özenle tasarlanmıştır. Biz sadece koku satmıyoruz; yaşamaya değer atmosferler yaratıyoruz."
+    },
+    "Contact": {
+        "title": "Bize Ulaşın",
+        "phone": "Telefon",
+        "email": "E-posta",
+        "social": "Bizi Takip Edin",
+        "location": "Konum",
+        "address": "İstanbul, Türkiye",
+        "back": "Ana Sayfaya Dön"
+    },
+    "Products": {
+        "1": {
+            "name": "Hush Room Spray",
+            "description": "IBOSH Room Spray Hush, ferahlatıcı ve uzun süre kalıcı etkisiyle yaşam alanlarınıza anında tazelik katan premium bir oda spreyidir. Özel formülü sayesinde kötü kokuları yok eder, bulunduğunuz ortama temiz, huzurlu ve zarif bir ambiyans kazandırır. Eve, ofise, arabaya ve günlük yaşamın her köşesine hızlı etki eden pratik bir çözümdür.\n\nModern ve şık tasarımı sayesinde yalnızca bir koku giderici değil, dekoratif olarak da ortamınıza estetik bir dokunuş ekler. Yumuşak ve dengeli esans yapısı, hem küçük hem büyük alanlarda etkili bir şekilde yayılır; ilk sıkışta ferah, temiz ve rahatlatıcı bir atmosfer yaratır.",
+            "features": "• 260 ml özel formül – uzun süre etkili ve dengeli koku yayılımı\n• Hızlı etki – kötü kokuları anında nötralize eder\n• Taze ve temiz esans – ev, ofis ve araç kullanımı için ideal\n• Dekoratif şişe tasarımı – modern ve zarif görünüm\n• Geniş kullanım alanı – salon, yatak odası, mutfak, banyo, ofis, koridor ve araç içi kullanımı için uygundur",
+            "usage": "• Spreyi dik tutarak havaya 1–2 kez sıkınız\n• Daha geniş alanlarda ihtiyaca göre birkaç kez uygulayınız\n• Kumaş ve yüzeylere çok yakından sıkmayınız\n• Çocukların erişemeyeceği bir yerde muhafaza ediniz"
+        },
+        "2": {
+            "name": "Funky Fresh Çubuklu Oda Kokusu",
+            "description": "IBOSH Funky Fresh Çubuklu Oda Kokusu, ferahlatıcı sakız aroması ve dekoratif çiçekli tasarımıyla bulunduğunuz ortama hem enerjik bir hava hem de zarif bir görünüm kazandırır. Tatlı, canlı ve eğlenceli 'Bubble Gum' etkisi sayesinde; genç, dinamik ve pozitif bir atmosfer isteyenler için mükemmel bir tercihtir.\n\nŞık cam şişesi ve içindeki özel çiçek detayları, ürünü yalnızca bir oda kokusu olmaktan çıkarır ve bulunduğu ortama dekoratif bir dokunuş ekler. Salon, yatak odası, banyo, ofis veya çalışma alanı fark etmeksizin uzun süre kalıcı ferahlık sağlayarak yaşam alanınızı canlandırır.",
+            "features": "• 110 ml özel formül\n• Dekoratif çiçekli tasarım\n• Tatlı ve ferah sakız aroması (Bubble Gum)\n• Uzun süre kalıcı koku yayılımı\n• Çubuklar sayesinde doğal ve dengeli kokulandırma\n• Ev ve ofis kullanımına uygun\n• Her ortama uyum sağlayan estetik görünüm",
+            "usage": "• Şişenin kapağını dikkatlice açınız.\n• Çubukları şişenin içine yerleştiriniz.\n• Çubuklar esansı emdikçe koku ortama yayılmaya başlar.\n• Daha yoğun etki için çubukları belirli aralıklarla ters çeviriniz."
+        },
+        "3": {
+            "name": "Tropical Mood Mango Çubuklu Oda Kokusu",
+            "description": "Tropical Mood serisi, ferah mango aroması ve zarif çiçek detaylarıyla yaşam alanlarınıza hem koku hem de estetik katar. Doğal esanslarla hazırlanan özel formülü sayesinde ortamda uzun süre kalıcı, tatlı ve tropikal bir ferahlık oluşturur.\n\nŞık cam şişesi ve dekoratif çiçek tasarımı sayesinde yalnızca bir oda kokusu değil, aynı zamanda dekoratif bir aksesuar olarak mekânınıza şıklık kazandırır.",
+            "features": "• 110 ml Premium Formül – Etkili ve uzun süre kalıcı koku yayılımı sağlar.\n• Doğal Mango Aroması – Ferah, tatlı ve tropikal bir atmosfer oluşturur.\n• Dekoratif Çiçek Tasarımı – Estetik görünümüyle her ortama zarafet katar.\n• Etkili Çubuk Difüzör Sistemi – Koku eşit ve hızlı şekilde yayılır.\n• Geniş Kullanım Alanı – Salon, yatak odası, banyo, mutfak ve ofis için idealdir.\n• Şık Cam Şişe – Yüksek kalite malzeme ile hem dekoratif hem dayanıklı.",
+            "usage": "• Şişenin kapağını dikkatlice açınız.\n• Çubukları şişenin içine yerleştiriniz.\n• Çubuklar esansı emdikten sonra ortamda yumuşak bir koku yayılmaya başlar.\n• Daha yoğun bir koku için çubukları belirli aralıklarla ters çeviriniz.\n• Ürünü doğrudan güneş ışığından uzak tutunuz."
+        }
+    }
+}
