@@ -1,4 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl';
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
@@ -35,13 +36,15 @@ export default async function RootLayout({
     <html lang={locale} dir={dir}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <CartProvider>
-            <AnnouncementBar />
-            {children}
-            <OAWhatsApp phoneNumber="905521679185" />
-            <CartDrawer />
-            <MobileNav />
-          </CartProvider>
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <CartProvider>
+              <AnnouncementBar />
+              {children}
+              <OAWhatsApp phoneNumber="905521679185" />
+              <CartDrawer />
+              <MobileNav />
+            </CartProvider>
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

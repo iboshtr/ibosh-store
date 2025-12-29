@@ -25,7 +25,8 @@
         "freeShippingOver": "شحن مجاني للطلبات فوق {amount} ليرة",
         "headerAnnouncement": "شحن مجاني للطلبات فوق 847 ليرة",
         "greatNewsFreeShipping": "خبر رائع! طلبك مؤهل للشحن المجاني.",
-        "quickBuyWhatsApp": "طلب سريع عبر واتساب"
+        "quickBuyWhatsApp": "طلب سريع عبر واتساب",
+        "continueShopping": "متابعة التسوق"
     },
     "Navigation": {
         "home": "الرئيسية",

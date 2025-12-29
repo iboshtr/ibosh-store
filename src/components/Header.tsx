@@ -4,6 +4,7 @@ import { useCart } from "@/context/CartContext";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { ThemeToggle } from "./ThemeToggle";
 import { ShoppingBag } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -72,6 +73,7 @@ export default function Header() {
 
                 {/* Actions */}
                 <div className="flex items-center gap-2 md:gap-6">
+                    <ThemeToggle />
                     <LanguageSwitcher />
 
                     <button

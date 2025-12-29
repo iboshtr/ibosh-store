@@ -156,7 +156,7 @@ export default function CartDrawer() {
                         <p className="mt-0.5 text-sm text-gray-500 mb-6">
                             {t("shippingCalculatedAtCheckout")}
                         </p>
-                        <div className="mt-6">
+                        <div className="mt-6 flex flex-col gap-3">
                             <a
                                 href={`https://wa.me/905521679185?text=${encodeURIComponent(
                                     `Hello IBOSH, I would like to order:\n\n${items
@@ -173,6 +173,13 @@ export default function CartDrawer() {
                                     <path d="M9 10a.5 5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1" />
                                 </svg>
                             </a>
+
+                            <button
+                                onClick={toggleCart}
+                                className="w-full py-3 text-sm font-medium text-gray-500 hover:text-gray-800 transition-colors border border-transparent hover:bg-gray-50 rounded-xl"
+                            >
+                                {t("continueShopping")}
+                            </button>
                         </div>
                     </div>
                 )}
