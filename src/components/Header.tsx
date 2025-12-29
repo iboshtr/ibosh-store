@@ -35,7 +35,7 @@ export default function Header() {
 
     return (
         <header
-            className={`sticky top-[36px] z-50 w-full transition-all duration-500 border-b ${isScrolled
+            className={`sticky top-[36px] z-[80] w-full transition-all duration-500 border-b ${isScrolled
                 ? "bg-white/80 backdrop-blur-xl border-[#C5A059]/40 shadow-sm py-2"
                 : "bg-transparent border-transparent py-4"
                 }`}
